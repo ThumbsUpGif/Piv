@@ -1,0 +1,121 @@
+/* ============== GLOBAL ==============*/
+/* ==============   🌍   ==============*/
+/* ============== GLOBAL ==============*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 16px;
+    --headline: ;
+    --body: #333;
+    --h1: #444;
+    --h2: #444;
+    --h3: #555;
+    --h4: #444;
+    --quote: #000;
+
+    --charity__background-color: linear-gradient(174.68deg, #E7E7E7 4.94%, rgba(207, 201, 181, 0.97) 84.53%);
+    --playground__background-color: linear-gradient(159.4deg, #F9DF86 13.66%, #FFD335 88.35%);
+    --index__background-color: linear-gradient(175.15deg, #C8DAE4 2.29%, rgba(224, 218, 198, 0.97) 95.7%);
+
+    --margin-left-phone: 6vw;
+    --margin-right-phone: 6vw;
+
+    --margin-left-tablet: 6vw;
+    --margin-right-tablet: 6vw;
+
+    --max-width-paragraph: 560px;
+}
+
+body {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--body);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+ul {
+    padding: 0 0 0 10px;
+    margin-top: -12px;
+    /* list-style: none; */
+    color: var(--body);
+}
+
+li {
+    margin-bottom: 4px;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    color: var(--body);
+}
+
+
+/* ==============   🌍   =============*/
+/* ============ BACK ARROW ==========*/
+
+
+
+/*--- 📱 ---*/
+@media screen and (max-width: 599px) {
+
+    .global__above-the-fold__back-to-first {
+        /* background-color: aquamarine; */
+        position: absolute;
+    }
+
+    .global__above-the-fold__back-to-first img {
+        padding-left: 10px;
+        margin-top: 20px;
+        height: 40px;
+        width: auto;
+    }
+}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 600px) and (max-width: 999px) {}
+
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1099px) {
+
+    .global__above-the-fold__back-to-first {
+        position: absolute;
+    }
+
+    .global__above-the-fold__back-to-first img {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+/* ========== */
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {}

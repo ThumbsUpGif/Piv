@@ -1,0 +1,108 @@
+/* FONT FACE */
+
+
+/* FONTS */
+
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    }
+    
+    
+    p {
+        color: var(--body);
+        line-height: 1.6;
+    }
+    
+    /* Size of H1 differs from page to page */
+    
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: var(--h1);
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: var(--h2);
+        font-weight: 400;
+        font-size: 32px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: var(--h3);
+        font-weight: 500;
+        font-size: 28px;
+        margin: 0;
+        padding-bottom: 24px;
+        border: 0;
+    }
+    
+    
+    
+    h4 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: var(--h4);
+        font-weight: 400;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    strong {
+        font-weight: 700;
+    }
+    
+    blockquote {
+        font-family: 'Josefin Sans', sans-serif;
+        color: var(--quote);
+        font-weight: 100;
+        font-size: 34px;
+        line-height: 40px;
+        max-width: 520px;
+    }
+    
+    .global__lead {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 24;
+        line-height: 28px;
+    }
+    
+    .index__nav-wrapper h4 {
+        /* background-color: yellow; */
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    
+    .index__about a {
+        text-decoration: underline;
+    }
+    
+    
+    
+    /*--- 📱 ---*/
+    @media screen and (max-width: 699px) {
+    
+        h2 {
+            font-weight: 400;
+            font-size: 28px;
+        }
+    
+        blockquote {
+            font-weight: 200;
+            font-size: 26px;
+            line-height: 30px;
+            /* max-width: 560px; */
+        }
+    }    

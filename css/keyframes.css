@@ -1,0 +1,20 @@
+
+/* BLOCKQUOTES */
+
+.animation-quote{
+    opacity: 0;
+}
+
+
+@keyframes animation-quote{
+    from {
+        /* transform: translateY(-3vw); */
+        opacity: 0.2;
+    }
+
+    to  {
+        /* transform: translateY(0); */
+        opacity: 1;
+    }
+}
+
