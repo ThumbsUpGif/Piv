@@ -62,9 +62,13 @@ li {
     color: var(--body);
 }
 
-abbr[title] {
+h1,li abbr[title] {
     text-decoration: none !important;
     border-bottom: none !important;
+    cursor: help;
+  }
+
+abbr[title] {
     cursor: help;
   }
 
