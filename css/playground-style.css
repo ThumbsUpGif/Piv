@@ -1,7 +1,11 @@
 /* ======== PLAYGROUND CASE STUDY ==========*/
 /* ==============   🎠    ==============*/
 
-
+a:focus-visible {
+    background-image: var(--playground__background-color);
+    outline: 1px solid #999;
+    border-radius: 1px;
+}
 
 
 

@@ -10,6 +10,14 @@ html {
 }
 
 
+a:focus-visible {
+    background-image: linear-gradient(171.05deg, #CFEAF2 47.79%, #FFE6F2 94.01%);
+    outline: 3px solid #999;
+    border-radius: 1px;
+}
+
+
+
 /* ==============  📟   ==============*/
 /* ========= ABOVE THE FOLD  =========*/
 
