@@ -17,6 +17,10 @@
         /* width: 100%; */
     }
 
+    #hero-artwork {
+        z-index: 1; 
+    }
+
     .index__nav-wrapper {
         /* background-color: pink; */
         margin-left: 3px;
